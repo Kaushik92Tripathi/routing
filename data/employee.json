@@ -1,6 +1,51 @@
-[
-    { "id": 1, "name": "John Doe", "position": "Software Engineer" },
-    { "id": 2, "name": "Jane Smith", "position": "Product Manager" },
-    { "id": 3, "name": "Alice Johnson", "position": "UX Designer" }
+{
+  "company": {
+    "name": "TechVision Solutions",
+    "founded": 2010,
+    "headquarters": "San Francisco, CA",
+    "mission": "Empowering businesses through innovative technology solutions",
+    "vision": "To be the global leader in digital transformation and technology innovation",
+    "values": [
+      "Innovation First",
+      "Customer Success",
+      "Integrity Always",
+      "Collaborative Spirit",
+      "Continuous Learning"
+    ],
+    "achievements": [
+      "ISO 9001:2015 Certified",
+      "Forbes Top 100 Tech Companies 2023",
+      "Best Workplace Award 2024",
+      "500+ Successfully Delivered Projects"
+    ]
+  },
+  "employees": [
+    {
+      "id": "1122",
+      "name": "Sarah Johnson",
+      "position": "Chief Technology Officer",
+      "department": "Technology",
+      "experience": "15+ years",
+      "expertise": ["Cloud Architecture", "Digital Transformation", "Tech Strategy"],
+      "achievements": "Led 200+ successful digital transformations"
+    },
+    {
+      "id": "1123",
+      "name": "Michael Chen",
+      "position": "Senior Solutions Architect",
+      "department": "Engineering",
+      "experience": "12 years",
+      "expertise": ["System Design", "Cloud Solutions", "Enterprise Architecture"],
+      "achievements": "Designed core platform architecture"
+    },
+    {
+      "id": "1124",
+      "name": "Emma Thompson",
+      "position": "Product Manager",
+      "department": "Product",
+      "experience": "8 years",
+      "expertise": ["Product Strategy", "Agile Management", "User Experience"],
+      "achievements": "Launched 3 flagship products"
+    }
   ]
-  
+}
