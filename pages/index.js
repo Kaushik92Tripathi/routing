@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,6 +15,11 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>My Store</title>
+      <link rel="icon" href="/logo.png" />
+    </Head>
     <div
       className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gradient-to-b from-white to-gray-50 font-[family-name:var(--font-geist-sans)]`}
     >
@@ -80,5 +86,6 @@ export default function Home() {
         </div>
       </main>
     </div>
+    </>
   );
 }

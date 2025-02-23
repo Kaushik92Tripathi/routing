@@ -13,9 +13,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Modern App</title>
+        <title>My Store</title>
         <meta name="description" content="A modern Next.js app with a beautiful theme." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <div className={`${roboto.className} bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen text-gray-800 flex flex-col`}>
         <Header />

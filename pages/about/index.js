@@ -1,11 +1,17 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import companyData from '../../data/employee.json';
+import Head from 'next/head';
 
 export default function About() {
   const [activeSection, setActiveSection] = useState('company');
   
   return (
+    <>
+    <Head>
+      <title>About Us</title>
+      <meta name="description" content="Learn more about our company and team." />
+    </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Main Company Information */}
       <div className="mb-12 text-center">
@@ -91,5 +97,7 @@ export default function About() {
         </div>
       )}
     </div>
+    </>
   );
+
 }
